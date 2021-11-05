@@ -1,0 +1,4 @@
+<RCC>
+    <qresource prefix="/sounds"/>
+    <qresource prefix="/sound"/>
+</RCC>
