@@ -1,6 +1,0 @@
-<RCC>
-    <qresource prefix="/sounds">
-        <file>machine-gun-02.wav</file>
-        <file>alexander-nakarada-the-great-battle.mp3</file>
-    </qresource>
-</RCC>
