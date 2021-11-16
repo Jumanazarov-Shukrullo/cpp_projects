@@ -1,0 +1,228 @@
+{
+	"BUILD_DIR" : "/home/shukrullo/CLionProjects/PlaneGame/cmake-build-debug/PlaneGame_autogen",
+	"CMAKE_BINARY_DIR" : "/home/shukrullo/CLionProjects/PlaneGame/cmake-build-debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/shukrullo/CLionProjects/PlaneGame/cmake-build-debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/shukrullo/CLionProjects/PlaneGame",
+	"CMAKE_EXECUTABLE" : "/snap/clion/169/bin/cmake/linux/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/shukrullo/CLionProjects/PlaneGame/CMakeLists.txt",
+		"/home/shukrullo/CLionProjects/PlaneGame/cmake-build-debug/CMakeFiles/3.20.2/CMakeSystem.cmake",
+		"/snap/clion/169/bin/cmake/linux/share/cmake-3.20/Modules/CMakeSystemSpecificInitialize.cmake",
+		"/home/shukrullo/CLionProjects/PlaneGame/cmake-build-debug/CMakeFiles/3.20.2/CMakeCCompiler.cmake",
+		"/home/shukrullo/CLionProjects/PlaneGame/cmake-build-debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake",
+		"/snap/clion/169/bin/cmake/linux/share/cmake-3.20/Modules/CMakeSystemSpecificInformation.cmake",
+		"/snap/clion/169/bin/cmake/linux/share/cmake-3.20/Modules/CMakeGenericSystem.cmake",
+		"/snap/clion/169/bin/cmake/linux/share/cmake-3.20/Modules/CMakeInitializeConfigs.cmake",
+		"/snap/clion/169/bin/cmake/linux/share/cmake-3.20/Modules/Platform/Linux.cmake",
+		"/snap/clion/169/bin/cmake/linux/share/cmake-3.20/Modules/Platform/UnixPaths.cmake",
+		"/snap/clion/169/bin/cmake/linux/share/cmake-3.20/Modules/CMakeFindCodeBlocks.cmake",
+		"/snap/clion/169/bin/cmake/linux/share/cmake-3.20/Modules/CMakeExtraGeneratorDetermineCompilerMacrosAndIncludeDirs.cmake",
+		"/snap/clion/169/bin/cmake/linux/share/cmake-3.20/Modules/ProcessorCount.cmake",
+		"/snap/clion/169/bin/cmake/linux/share/cmake-3.20/Modules/CMakeCInformation.cmake",
+		"/snap/clion/169/bin/cmake/linux/share/cmake-3.20/Modules/CMakeLanguageInformation.cmake",
+		"/snap/clion/169/bin/cmake/linux/share/cmake-3.20/Modules/Compiler/GNU-C.cmake",
+		"/snap/clion/169/bin/cmake/linux/share/cmake-3.20/Modules/Compiler/GNU.cmake",
+		"/snap/clion/169/bin/cmake/linux/share/cmake-3.20/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
+		"/snap/clion/169/bin/cmake/linux/share/cmake-3.20/Modules/Platform/Linux-GNU-C.cmake",
+		"/snap/clion/169/bin/cmake/linux/share/cmake-3.20/Modules/Platform/Linux-GNU.cmake",
+		"/snap/clion/169/bin/cmake/linux/share/cmake-3.20/Modules/CMakeCommonLanguageInclude.cmake",
+		"/snap/clion/169/bin/cmake/linux/share/cmake-3.20/Modules/CMakeCXXInformation.cmake",
+		"/snap/clion/169/bin/cmake/linux/share/cmake-3.20/Modules/CMakeLanguageInformation.cmake",
+		"/snap/clion/169/bin/cmake/linux/share/cmake-3.20/Modules/Compiler/GNU-CXX.cmake",
+		"/snap/clion/169/bin/cmake/linux/share/cmake-3.20/Modules/Compiler/GNU.cmake",
+		"/snap/clion/169/bin/cmake/linux/share/cmake-3.20/Modules/Platform/Linux-GNU-CXX.cmake",
+		"/snap/clion/169/bin/cmake/linux/share/cmake-3.20/Modules/Platform/Linux-GNU.cmake",
+		"/snap/clion/169/bin/cmake/linux/share/cmake-3.20/Modules/CMakeCommonLanguageInclude.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake",
+		"/snap/clion/169/bin/cmake/linux/share/cmake-3.20/Modules/CMakeParseArguments.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsGbmIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLibInputPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake",
+		"/snap/clion/169/bin/cmake/linux/share/cmake-3.20/Modules/CMakeParseArguments.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Multimedia/Qt5MultimediaConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Multimedia/Qt5MultimediaConfig.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5NetworkConfig.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5Network_QConnmanEnginePlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5Network_QNetworkManagerEnginePlugin.cmake"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/shukrullo/CLionProjects/PlaneGame",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/home/shukrullo/CLionProjects/PlaneGame/src/Headers/Bullet.h",
+			"MU",
+			"GYKOEHHNTS/moc_Bullet.cpp",
+			null
+		],
+		[
+			"/home/shukrullo/CLionProjects/PlaneGame/src/Headers/Enemy.h",
+			"MU",
+			"GYKOEHHNTS/moc_Enemy.cpp",
+			null
+		],
+		[
+			"/home/shukrullo/CLionProjects/PlaneGame/src/Headers/Game.h",
+			"MU",
+			"GYKOEHHNTS/moc_Game.cpp",
+			null
+		],
+		[
+			"/home/shukrullo/CLionProjects/PlaneGame/src/Headers/Health.h",
+			"MU",
+			"GYKOEHHNTS/moc_Health.cpp",
+			null
+		],
+		[
+			"/home/shukrullo/CLionProjects/PlaneGame/src/Headers/Player.h",
+			"MU",
+			"GYKOEHHNTS/moc_Player.cpp",
+			null
+		],
+		[
+			"/home/shukrullo/CLionProjects/PlaneGame/src/Headers/Score.h",
+			"MU",
+			"GYKOEHHNTS/moc_Score.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/shukrullo/CLionProjects/PlaneGame/cmake-build-debug/PlaneGame_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/shukrullo/CLionProjects/PlaneGame/cmake-build-debug/PlaneGame_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_MULTIMEDIA_LIB",
+		"QT_NETWORK_LIB",
+		"QT_WIDGETS_LIB"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/usr/include/x86_64-linux-gnu/qt5",
+		"/usr/include/x86_64-linux-gnu/qt5/QtCore",
+		"/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++",
+		"/usr/include/x86_64-linux-gnu/qt5/QtGui",
+		"/usr/include/x86_64-linux-gnu/qt5/QtWidgets",
+		"/usr/include/x86_64-linux-gnu/qt5/QtMultimedia",
+		"/usr/include/x86_64-linux-gnu/qt5/QtNetwork",
+		"/usr/include/c++/10",
+		"/usr/include/x86_64-linux-gnu/c++/10",
+		"/usr/include/c++/10/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/10/include",
+		"/usr/local/include",
+		"/usr/include/x86_64-linux-gnu",
+		"/usr/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/snap/clion/169/bin/cmake/linux/share/cmake-3.20/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/shukrullo/CLionProjects/PlaneGame/cmake-build-debug/PlaneGame_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "/home/shukrullo/CLionProjects/PlaneGame/cmake-build-debug/CMakeFiles/PlaneGame_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
+	"QT_UIC_EXECUTABLE" : "/usr/lib/qt5/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "/home/shukrullo/CLionProjects/PlaneGame/cmake-build-debug/CMakeFiles/PlaneGame_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/shukrullo/CLionProjects/PlaneGame/src/Source/Bullet.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/shukrullo/CLionProjects/PlaneGame/src/Source/Enemy.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/shukrullo/CLionProjects/PlaneGame/src/Source/Game.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/shukrullo/CLionProjects/PlaneGame/src/Source/Health.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/shukrullo/CLionProjects/PlaneGame/src/Source/Player.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/shukrullo/CLionProjects/PlaneGame/src/Source/Score.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/shukrullo/CLionProjects/PlaneGame/src/Source/main.cpp",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}
