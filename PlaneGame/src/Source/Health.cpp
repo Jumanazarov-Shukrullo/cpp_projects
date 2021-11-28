@@ -1,5 +1,6 @@
 #include "../Headers/Health.h"
 #include <QFont>
+#include <QGraphicsTextItem>
 
 Health::Health(QGraphicsItem *parent) : QGraphicsTextItem(parent) {
     health_ = 10;

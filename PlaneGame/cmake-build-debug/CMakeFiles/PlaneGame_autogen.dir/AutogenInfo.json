@@ -90,37 +90,43 @@
 	[
 		[
 			"/home/shukrullo/CLionProjects/PlaneGame/src/Headers/Bullet.h",
-			"MU",
+			"Mu",
 			"GYKOEHHNTS/moc_Bullet.cpp",
 			null
 		],
 		[
+			"/home/shukrullo/CLionProjects/PlaneGame/src/Headers/Button.h",
+			"Mu",
+			"GYKOEHHNTS/moc_Button.cpp",
+			null
+		],
+		[
 			"/home/shukrullo/CLionProjects/PlaneGame/src/Headers/Enemy.h",
-			"MU",
+			"Mu",
 			"GYKOEHHNTS/moc_Enemy.cpp",
 			null
 		],
 		[
 			"/home/shukrullo/CLionProjects/PlaneGame/src/Headers/Game.h",
-			"MU",
+			"Mu",
 			"GYKOEHHNTS/moc_Game.cpp",
 			null
 		],
 		[
 			"/home/shukrullo/CLionProjects/PlaneGame/src/Headers/Health.h",
-			"MU",
+			"Mu",
 			"GYKOEHHNTS/moc_Health.cpp",
 			null
 		],
 		[
 			"/home/shukrullo/CLionProjects/PlaneGame/src/Headers/Player.h",
-			"MU",
+			"Mu",
 			"GYKOEHHNTS/moc_Player.cpp",
 			null
 		],
 		[
 			"/home/shukrullo/CLionProjects/PlaneGame/src/Headers/Score.h",
-			"MU",
+			"Mu",
 			"GYKOEHHNTS/moc_Score.cpp",
 			null
 		]
@@ -145,6 +151,8 @@
 	],
 	"MOC_INCLUDES" : 
 	[
+		"/home/shukrullo/CLionProjects/PlaneGame/cmake-build-debug",
+		"/home/shukrullo/CLionProjects/PlaneGame",
 		"/usr/include/x86_64-linux-gnu/qt5",
 		"/usr/include/x86_64-linux-gnu/qt5/QtCore",
 		"/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++",
@@ -178,7 +186,7 @@
 	"PARALLEL" : 4,
 	"PARSE_CACHE_FILE" : "/home/shukrullo/CLionProjects/PlaneGame/cmake-build-debug/CMakeFiles/PlaneGame_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
-	"QT_UIC_EXECUTABLE" : "/usr/lib/qt5/bin/uic",
+	"QT_UIC_EXECUTABLE" : "",
 	"QT_VERSION_MAJOR" : 5,
 	"QT_VERSION_MINOR" : 15,
 	"SETTINGS_FILE" : "/home/shukrullo/CLionProjects/PlaneGame/cmake-build-debug/CMakeFiles/PlaneGame_autogen.dir/AutogenUsed.txt",
@@ -186,43 +194,44 @@
 	[
 		[
 			"/home/shukrullo/CLionProjects/PlaneGame/src/Source/Bullet.cpp",
-			"MU",
+			"Mu",
+			null
+		],
+		[
+			"/home/shukrullo/CLionProjects/PlaneGame/src/Source/Button.cpp",
+			"Mu",
 			null
 		],
 		[
 			"/home/shukrullo/CLionProjects/PlaneGame/src/Source/Enemy.cpp",
-			"MU",
+			"Mu",
 			null
 		],
 		[
 			"/home/shukrullo/CLionProjects/PlaneGame/src/Source/Game.cpp",
-			"MU",
+			"Mu",
 			null
 		],
 		[
 			"/home/shukrullo/CLionProjects/PlaneGame/src/Source/Health.cpp",
-			"MU",
+			"Mu",
 			null
 		],
 		[
 			"/home/shukrullo/CLionProjects/PlaneGame/src/Source/Player.cpp",
-			"MU",
+			"Mu",
 			null
 		],
 		[
 			"/home/shukrullo/CLionProjects/PlaneGame/src/Source/Score.cpp",
-			"MU",
+			"Mu",
 			null
 		],
 		[
 			"/home/shukrullo/CLionProjects/PlaneGame/src/Source/main.cpp",
-			"MU",
+			"Mu",
 			null
 		]
 	],
-	"UIC_OPTIONS" : [],
-	"UIC_SEARCH_PATHS" : [],
-	"UIC_SKIP" : [],
-	"UIC_UI_FILES" : [],
 	"VERBOSITY" : 0
 }

@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/shukrullo/CLionProjects/PlaneGame/cmake-build-debug/PlaneGame_autogen/mocs_compilation.cpp" "/home/shukrullo/CLionProjects/PlaneGame/cmake-build-debug/CMakeFiles/PlaneGame.dir/PlaneGame_autogen/mocs_compilation.cpp.o"
   "/home/shukrullo/CLionProjects/PlaneGame/src/Source/Bullet.cpp" "/home/shukrullo/CLionProjects/PlaneGame/cmake-build-debug/CMakeFiles/PlaneGame.dir/src/Source/Bullet.cpp.o"
+  "/home/shukrullo/CLionProjects/PlaneGame/src/Source/Button.cpp" "/home/shukrullo/CLionProjects/PlaneGame/cmake-build-debug/CMakeFiles/PlaneGame.dir/src/Source/Button.cpp.o"
   "/home/shukrullo/CLionProjects/PlaneGame/src/Source/Enemy.cpp" "/home/shukrullo/CLionProjects/PlaneGame/cmake-build-debug/CMakeFiles/PlaneGame.dir/src/Source/Enemy.cpp.o"
   "/home/shukrullo/CLionProjects/PlaneGame/src/Source/Game.cpp" "/home/shukrullo/CLionProjects/PlaneGame/cmake-build-debug/CMakeFiles/PlaneGame.dir/src/Source/Game.cpp.o"
   "/home/shukrullo/CLionProjects/PlaneGame/src/Source/Health.cpp" "/home/shukrullo/CLionProjects/PlaneGame/cmake-build-debug/CMakeFiles/PlaneGame.dir/src/Source/Health.cpp.o"
@@ -30,6 +31,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "."
+  "../"
   "PlaneGame_autogen/include"
   "/usr/include/x86_64-linux-gnu/qt5"
   "/usr/include/x86_64-linux-gnu/qt5/QtCore"

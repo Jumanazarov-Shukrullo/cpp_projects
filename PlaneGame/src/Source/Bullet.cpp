@@ -9,7 +9,7 @@ extern Game *game;// there is an external global object called game
 
 Bullet::Bullet(QGraphicsItem *parent) : QObject(), QGraphicsPixmapItem(parent) {
     // draw graphics
-    setPixmap(QPixmap("/home/shukrullo/CLionProjects/PlaneGame/src/Images/bullet.jpg"));
+    setPixmap(QPixmap("/home/shukrullo/CLionProjects/PlaneGame/src/Images/bullet.png"));
 
 
     // make/connect a timer to move() the bullet every so often
@@ -38,7 +38,7 @@ void Bullet::Move() {
             delete colliding_items[i];
             delete this;
 
-            // return (all code below refers to a non existint bullet)
+            // return (all code below refers to a non-existing bullet)
             return;
         }
     }

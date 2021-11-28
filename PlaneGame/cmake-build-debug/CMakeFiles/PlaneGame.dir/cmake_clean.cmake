@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "PlaneGame_autogen"
   "CMakeFiles/PlaneGame.dir/PlaneGame_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/PlaneGame.dir/src/Source/Bullet.cpp.o"
+  "CMakeFiles/PlaneGame.dir/src/Source/Button.cpp.o"
   "CMakeFiles/PlaneGame.dir/src/Source/Enemy.cpp.o"
   "CMakeFiles/PlaneGame.dir/src/Source/Game.cpp.o"
   "CMakeFiles/PlaneGame.dir/src/Source/Health.cpp.o"

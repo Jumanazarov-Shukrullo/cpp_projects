@@ -190,6 +190,30 @@ src/Source/Bullet.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PlaneGame.dir/build.make CMakeFiles/PlaneGame.dir/src/Source/Bullet.cpp.s
 .PHONY : src/Source/Bullet.cpp.s
 
+src/Source/Button.o: src/Source/Button.cpp.o
+.PHONY : src/Source/Button.o
+
+# target to build an object file
+src/Source/Button.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PlaneGame.dir/build.make CMakeFiles/PlaneGame.dir/src/Source/Button.cpp.o
+.PHONY : src/Source/Button.cpp.o
+
+src/Source/Button.i: src/Source/Button.cpp.i
+.PHONY : src/Source/Button.i
+
+# target to preprocess a source file
+src/Source/Button.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PlaneGame.dir/build.make CMakeFiles/PlaneGame.dir/src/Source/Button.cpp.i
+.PHONY : src/Source/Button.cpp.i
+
+src/Source/Button.s: src/Source/Button.cpp.s
+.PHONY : src/Source/Button.s
+
+# target to generate assembly for a file
+src/Source/Button.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PlaneGame.dir/build.make CMakeFiles/PlaneGame.dir/src/Source/Button.cpp.s
+.PHONY : src/Source/Button.cpp.s
+
 src/Source/Enemy.o: src/Source/Enemy.cpp.o
 .PHONY : src/Source/Enemy.o
 
@@ -350,6 +374,9 @@ help:
 	@echo "... src/Source/Bullet.o"
 	@echo "... src/Source/Bullet.i"
 	@echo "... src/Source/Bullet.s"
+	@echo "... src/Source/Button.o"
+	@echo "... src/Source/Button.i"
+	@echo "... src/Source/Button.s"
 	@echo "... src/Source/Enemy.o"
 	@echo "... src/Source/Enemy.i"
 	@echo "... src/Source/Enemy.s"

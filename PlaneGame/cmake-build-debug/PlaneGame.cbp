@@ -49,6 +49,8 @@
 					<Add option="-DQT_WIDGETS_LIB"/>
 					<Add option="-DQT_MULTIMEDIA_LIB"/>
 					<Add option="-DQT_NETWORK_LIB"/>
+					<Add directory="/home/shukrullo/CLionProjects/PlaneGame/cmake-build-debug"/>
+					<Add directory="/home/shukrullo/CLionProjects/PlaneGame"/>
 					<Add directory="/home/shukrullo/CLionProjects/PlaneGame/cmake-build-debug/PlaneGame_autogen/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
@@ -84,6 +86,8 @@
 					<Add option="-DQT_WIDGETS_LIB"/>
 					<Add option="-DQT_MULTIMEDIA_LIB"/>
 					<Add option="-DQT_NETWORK_LIB"/>
+					<Add directory="/home/shukrullo/CLionProjects/PlaneGame/cmake-build-debug"/>
+					<Add directory="/home/shukrullo/CLionProjects/PlaneGame"/>
 					<Add directory="/home/shukrullo/CLionProjects/PlaneGame/cmake-build-debug/PlaneGame_autogen/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
@@ -124,6 +128,9 @@
 		<Unit filename="/home/shukrullo/CLionProjects/PlaneGame/src/Headers/Bullet.h">
 			<Option target="PlaneGame"/>
 		</Unit>
+		<Unit filename="/home/shukrullo/CLionProjects/PlaneGame/src/Headers/Button.h">
+			<Option target="PlaneGame"/>
+		</Unit>
 		<Unit filename="/home/shukrullo/CLionProjects/PlaneGame/src/Headers/Enemy.h">
 			<Option target="PlaneGame"/>
 		</Unit>
@@ -140,6 +147,9 @@
 			<Option target="PlaneGame"/>
 		</Unit>
 		<Unit filename="/home/shukrullo/CLionProjects/PlaneGame/src/Source/Bullet.cpp">
+			<Option target="PlaneGame"/>
+		</Unit>
+		<Unit filename="/home/shukrullo/CLionProjects/PlaneGame/src/Source/Button.cpp">
 			<Option target="PlaneGame"/>
 		</Unit>
 		<Unit filename="/home/shukrullo/CLionProjects/PlaneGame/src/Source/Enemy.cpp">
