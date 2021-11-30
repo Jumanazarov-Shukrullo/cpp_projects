@@ -18,9 +18,9 @@ It's a war plane game which you will try to kill as many enemies as you can
 
 ### First you should clone the repository using this [link](https://github.com/Jumanazarov-Shukrullo/cpp_projects.git)
 
-### Then copy and paste following commands:
+### Then open the terminal, copy and paste following commands:
   ```
-  cd PlaneGame/cmake-build-debug
+  cd ~/PlaneGame/cmake-build-debug
   ```
   ```
   make ..
