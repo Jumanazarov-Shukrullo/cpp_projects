@@ -20,8 +20,7 @@ Game::Game(QWidget *parent) {
 
 void Game::Start() {
     scene->clear();
-
-    setBackgroundBrush(QBrush(QImage("/home/shukrullo/CLionProjects/PlaneGame/src/Images/background.jpg")));
+    setBackgroundBrush(QBrush(QImage("../src/Images/background.jpg")));
     // create the player
     player = new Player();
     player->setPos(550, 640);// TODO generalize to always be in the middle bottom of screen
@@ -47,7 +46,7 @@ void Game::Start() {
 }
 
 void Game::displayMainMenu() {
-    setBackgroundBrush(QBrush(QImage("/home/shukrullo/CLionProjects/PlaneGame/src/Images/5th_background.jpg")));
+    setBackgroundBrush(QBrush(QImage("../src/Images/5th_background.jpg")));
     QGraphicsTextItem *title_text = new QGraphicsTextItem();
     QFont title_font("comic sans", 50);
     title_text->setFont(title_font);

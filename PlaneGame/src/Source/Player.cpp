@@ -6,7 +6,7 @@
 
 #include <QDebug>
 Player::Player(QGraphicsItem *parent) : QGraphicsPixmapItem(parent) {
-    setPixmap(QPixmap("/home/shukrullo/CLionProjects/PlaneGame/src/Images/firing.png"));
+    setPixmap(QPixmap("../src/Images/firing.png"));
 }
 
 void Player::keyPressEvent(QKeyEvent *event) {

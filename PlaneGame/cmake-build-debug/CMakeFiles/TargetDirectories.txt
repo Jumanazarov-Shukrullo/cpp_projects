@@ -1,4 +1,4 @@
-/home/shukrullo/cpp_projects/PlaneGame/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/shukrullo/cpp_projects/PlaneGame/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/shukrullo/cpp_projects/PlaneGame/cmake-build-debug/CMakeFiles/PlaneGame.dir
-/home/shukrullo/cpp_projects/PlaneGame/cmake-build-debug/CMakeFiles/PlaneGame_autogen.dir
+/home/shukrullo/CLionProjects/PlaneGame/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/shukrullo/CLionProjects/PlaneGame/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/shukrullo/CLionProjects/PlaneGame/cmake-build-debug/CMakeFiles/PlaneGame.dir
+/home/shukrullo/CLionProjects/PlaneGame/cmake-build-debug/CMakeFiles/PlaneGame_autogen.dir

@@ -1,5 +1,5 @@
-/home/shukrullo/cpp_projects/PlaneGame/cmake-build-debug/PlaneGame_autogen/GYKOEHHNTS/moc_Enemy.cpp: /home/shukrullo/cpp_projects/PlaneGame/src/Headers/Enemy.h \
-  /home/shukrullo/cpp_projects/PlaneGame/cmake-build-debug/PlaneGame_autogen/moc_predefs.h \
+/home/shukrullo/CLionProjects/PlaneGame/cmake-build-debug/PlaneGame_autogen/GYKOEHHNTS/moc_Enemy.cpp: /home/shukrullo/CLionProjects/PlaneGame/src/Headers/Enemy.h \
+  /home/shukrullo/CLionProjects/PlaneGame/cmake-build-debug/PlaneGame_autogen/moc_predefs.h \
   /usr/include/assert.h \
   /usr/include/c++/10/algorithm \
   /usr/include/c++/10/array \

@@ -1,7 +1,6 @@
 #include "../Headers/Score.h"
 #include <QFont>
 #include <QGraphicsTextItem>
-#include <QMediaPlayer>
 
 Score::Score(QGraphicsItem *parent) : QGraphicsTextItem(parent) {
     score_ = 0;

@@ -20,7 +20,7 @@ Enemy::Enemy() : QObject(), QGraphicsPixmapItem() {
         setPos(random_number, 0);
     }
     // drew the rect
-    setPixmap(QPixmap("/home/shukrullo/CLionProjects/PlaneGame/src/Images/enemy.png"));
+    setPixmap(QPixmap("../src/Images/enemy.png"));
 
     // connect
     QTimer *timer = new QTimer(this);

@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.18.4)
+cmake_minimum_required(VERSION 3.10.2)
 project(PlaneGame)
 
 # Tell CMake to run moc when necessary:
@@ -14,7 +14,7 @@ find_package(Qt5 COMPONENTS
         Gui
         Widgets
         REQUIRED
-        Multimedia)
+        )
 
 add_executable(PlaneGame src/Source/main.cpp src/Source/Player.cpp
         src/Source/Game.cpp src/Source/Enemy.cpp src/Source/Score.cpp
@@ -26,6 +26,5 @@ target_link_libraries(PlaneGame
         Qt5::Core
         Qt5::Gui
         Qt5::Widgets
-        Qt5::Multimedia
         )
 

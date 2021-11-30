@@ -1,8 +1,8 @@
-/home/shukrullo/cpp_projects/PlaneGame/cmake-build-debug/PlaneGame_autogen/GYKOEHHNTS/moc_Game.cpp: /home/shukrullo/cpp_projects/PlaneGame/src/Headers/Game.h \
-  /home/shukrullo/cpp_projects/PlaneGame/cmake-build-debug/PlaneGame_autogen/moc_predefs.h \
-  /home/shukrullo/cpp_projects/PlaneGame/src/Headers/Health.h \
-  /home/shukrullo/cpp_projects/PlaneGame/src/Headers/Player.h \
-  /home/shukrullo/cpp_projects/PlaneGame/src/Headers/Score.h \
+/home/shukrullo/CLionProjects/PlaneGame/cmake-build-debug/PlaneGame_autogen/GYKOEHHNTS/moc_Game.cpp: /home/shukrullo/CLionProjects/PlaneGame/src/Headers/Game.h \
+  /home/shukrullo/CLionProjects/PlaneGame/cmake-build-debug/PlaneGame_autogen/moc_predefs.h \
+  /home/shukrullo/CLionProjects/PlaneGame/src/Headers/Health.h \
+  /home/shukrullo/CLionProjects/PlaneGame/src/Headers/Player.h \
+  /home/shukrullo/CLionProjects/PlaneGame/src/Headers/Score.h \
   /usr/include/assert.h \
   /usr/include/c++/10/algorithm \
   /usr/include/c++/10/array \
