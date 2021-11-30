@@ -32,7 +32,10 @@ If you don't have Qt installed then do this job, otherwise you can just go to th
   cd ~/cpp_projects/PlaneGame/cmake-build-debug
   ```
   ```
-  make ..
+  cmake ..
+  ```
+  ```
+  make
   ```
 ### And lastly run the project:
   ```
