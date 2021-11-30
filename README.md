@@ -9,6 +9,8 @@ It's a war plane game which you will try to kill as many enemies as you can
   + Cmake
   + Qt creator
 
+### First you should clone the repository.
+
 ### Linux Qt Creator Installation
   + Open a terminal (Ctrl + Alt + t in Ubuntu)
   + Copy the following code into the terminal and hit enter:
@@ -21,8 +23,6 @@ It's a war plane game which you will try to kill as many enemies as you can
   ```
   sudo apt install qt5-default
   ```
-
-### First you should clone the repository using this [link](https://github.com/Jumanazarov-Shukrullo/cpp_projects.git)
 
 ### Then open the terminal, copy and paste following commands:
   ```
