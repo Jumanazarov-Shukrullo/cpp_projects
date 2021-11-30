@@ -13,14 +13,20 @@ It's a war plane game which you will try to kill as many enemies as you can
   + Open a terminal (Ctrl + Alt + t in Ubuntu)
   + Copy the following code into the terminal and hit enter:
   ```
-  sudo apt-get -y install openjdk-7-jre qtcreator build-essential
+  sudo apt install qtcreator
+  ```
+  ```
+  sudo apt install build-essential
+  ```
+  ```
+  sudo apt install qt5-default
   ```
 
 ### First you should clone the repository using this [link](https://github.com/Jumanazarov-Shukrullo/cpp_projects.git)
 
 ### Then open the terminal, copy and paste following commands:
   ```
-  cd ~/PlaneGame/cmake-build-debug
+  cd ~/cpp_projects/PlaneGame/cmake-build-debug
   ```
   ```
   make ..
