@@ -12,6 +12,7 @@ It's a war plane game which you will try to kill as many enemies as you can
   ```
   sudo apt-get -y install openjdk-7-jre qtcreator build-essential
   ```
+First you should clone the repository using this [link](https://github.com/Jumanazarov-Shukrullo/cpp_projects.git)
 ### Then copy and paste following commands:
   ```
   cd PlaneGame/cmake-build-debug
