@@ -2,7 +2,8 @@
 
 ### Description
 
-A game which is written in C++ and Qt
+A game which is written in C++ and Qt.
+
 It's a war plane game which you will try to kill as many enemies as you can
 
 ### Requirements:
@@ -10,6 +11,8 @@ It's a war plane game which you will try to kill as many enemies as you can
   + Qt creator
 
 ### First you should clone the repository.
+
+If you don't have Qt installed then do this job, otherwise you can just go to the next paragraph
 
 ### Linux Qt Creator Installation
   + Open a terminal (Ctrl + Alt + t in Ubuntu)
