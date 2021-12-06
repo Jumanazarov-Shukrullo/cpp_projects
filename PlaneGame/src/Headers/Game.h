@@ -17,8 +17,12 @@ public:
     Score *score;
     Health *health;
     void displayMainMenu();
-
+    void gameOver();
+    void DisplayGameOverWindow(QString message);
+private:
+    void drawPanel(int x, int y, int width, int height, QColor color, double opacity);
 public slots:
     void Start();
+    void RestartGame();
 };
 #endif//PLANEGAME_GAME_H

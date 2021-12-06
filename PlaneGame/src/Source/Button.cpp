@@ -7,7 +7,7 @@ Button::Button(QString name, QGraphicsItem *parent): QGraphicsRectItem(parent){
     setRect(0,0,200,50);
     QBrush brush;
     brush.setStyle(Qt::SolidPattern);
-    brush.setColor(Qt::darkGray);
+    brush.setColor(Qt::gray);
     setBrush(brush);
 
     // draw the text
