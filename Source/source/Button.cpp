@@ -1,4 +1,4 @@
-#include "../Headers/Button.h"
+#include "../include/Button.h"
 #include <QGraphicsTextItem>
 #include <QBrush>
 
