@@ -1,4 +1,4 @@
-#include "../Headers/Game.h"
+#include "../include/Game.h"
 #include <QApplication>
 #include <QTimer>
 

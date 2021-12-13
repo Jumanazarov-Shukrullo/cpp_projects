@@ -1,5 +1,5 @@
-#include "../Headers/Game.h"
-#include "../Headers/Button.h"
+#include "../include/Game.h"
+#include "../include/Button.h"
 #include <QBrush>
 #include <QFont>
 #include <QGraphicsTextItem>

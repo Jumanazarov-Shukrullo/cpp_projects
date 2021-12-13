@@ -1,6 +1,6 @@
-#include "../Headers/Bullet.h"
-#include "../Headers/Enemy.h"
-#include "../Headers/Game.h"
+#include "../include/Bullet.h"
+#include "../include/Enemy.h"
+#include "../include/Game.h"
 #include <QGraphicsScene>
 #include <QList>
 #include <QTimer>

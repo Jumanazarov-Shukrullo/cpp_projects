@@ -1,5 +1,5 @@
-#include "../Headers/Health.h"
-#include "../Headers/Game.h"
+#include "../include/Health.h"
+#include "../include/Game.h"
 #include <QFont>
 #include <QGraphicsTextItem>
 

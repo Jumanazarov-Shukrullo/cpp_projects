@@ -1,5 +1,5 @@
-#include "../Headers/Enemy.h"
-#include "../Headers/Game.h"
+#include "../include/Enemy.h"
+#include "../include/Game.h"
 #include <QDebug>
 #include <QGraphicsScene>
 #include <QList>

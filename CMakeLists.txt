@@ -16,11 +16,11 @@ find_package(Qt5 COMPONENTS
         REQUIRED
         )
 
-add_executable(PlaneGame Source/source/main.cpp Source/source/Player.cpp
-        Source/source/Game.cpp Source/source/Enemy.cpp Source/source/Score.cpp
-        Source/source/Health.cpp Source/source/Bullet.cpp
-        Source/include/Bullet.h Source/include/Enemy.h Source/include/Game.h
-        Source/include/Health.h Source/include/Player.h Source/include/Score.h Source/include/Button.h Source/source/Button.cpp)
+add_executable(PlaneGame src/main.cpp src/Player.cpp
+        src/Game.cpp src/Enemy.cpp src/Score.cpp
+        src/Health.cpp src/Bullet.cpp
+        include/Bullet.h include/Enemy.h include/Game.h
+        include/Health.h include/Player.h include/Score.h include/Button.h src/Button.cpp)
 
 target_link_libraries(PlaneGame
         Qt5::Core

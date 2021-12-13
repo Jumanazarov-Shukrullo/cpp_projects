@@ -1,4 +1,4 @@
-#include "../Headers/Score.h"
+#include "../include/Score.h"
 #include <QFont>
 #include <QGraphicsTextItem>
 
