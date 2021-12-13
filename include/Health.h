@@ -6,7 +6,7 @@ class Health : public QGraphicsTextItem {
 public:
     explicit Health(QGraphicsItem *parent = nullptr);
     void DecreaseHealth();
-    int GetHealth();
+    int GetHealth() const;
 
 private:
     int health_;

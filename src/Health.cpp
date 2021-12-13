@@ -16,10 +16,10 @@ void Health::DecreaseHealth() {
     health_--;
     setPlainText("Health: " + QString::number(health_));
     if (health_ == 0) {
-        game->gameOver();
+        game->GameOver();
     }
 }
 
-int Health::GetHealth() {
+int Health::GetHealth() const {
     return health_;
 }

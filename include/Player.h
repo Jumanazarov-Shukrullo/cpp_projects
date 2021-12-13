@@ -8,7 +8,7 @@ class Player : public QObject, public QGraphicsPixmapItem {
     Q_OBJECT
 public:
     explicit Player(QGraphicsItem *parent = nullptr);
-    void keyPressEvent(QKeyEvent *event);
+    void keyPressEvent(QKeyEvent *event) override;
 public slots:
     void Spawn();
 };

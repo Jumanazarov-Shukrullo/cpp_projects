@@ -6,7 +6,7 @@
 
 #include <QDebug>
 Player::Player(QGraphicsItem *parent) : QGraphicsPixmapItem(parent) {
-    setPixmap(QPixmap("../src/Images/firing.png"));
+    setPixmap(QPixmap("../images/firing.png"));
 }
 
 void Player::keyPressEvent(QKeyEvent *event) {
@@ -29,7 +29,7 @@ void Player::keyPressEvent(QKeyEvent *event) {
         }
     } else if (event->key() == Qt::Key_Space) {
         // create a bullet
-        Bullet *bullet = new Bullet();
+        auto *bullet = new Bullet();
         bullet->setPos(x() + 80, y() + 50);
         scene()->addItem(bullet);
     }
@@ -37,6 +37,6 @@ void Player::keyPressEvent(QKeyEvent *event) {
 
 void Player::Spawn() {
     // create an enemy
-    Enemy *enemy = new Enemy();
+    auto *enemy = new Enemy();
     scene()->addItem(enemy);
 }

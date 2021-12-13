@@ -11,21 +11,21 @@ Game::Game(QWidget *parent) {
     // set up the screen
     setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
     setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
-    setFixedSize(1000, 800);
+    setFixedSize(vector_[0], vector_[1]);
     // create the scene
     scene = new QGraphicsScene();
     // make the scene 1000x800 instead of infinity by infinity (default)
-    scene->setSceneRect(0, 0, 1000, 800);
+    scene->setSceneRect(0, 0, vector_[0], vector_[1]);
     setScene(scene);
     show();
 }
 
 void Game::Start() {
     scene->clear();
-    setBackgroundBrush(QBrush(QImage("../src/Images/background.jpg")));
+    setBackgroundBrush(QBrush(QImage("../images/background.jpg")));
     // create the player
     player = new Player();
-    player->setPos(550, 640);// TODO generalize to always be in the middle bottom of screen
+    player->setPos(vector_[3], vector_[2]);// TODO generalize to always be in the middle bottom of screen
     // make the player focusable and set it to be the current focus
     player->setFlag(QGraphicsItem::ItemIsFocusable);
     player->setFocus();
@@ -36,43 +36,43 @@ void Game::Start() {
     score = new Score();
     scene->addItem(score);
     health = new Health();
-    health->setPos(health->x(), health->y() + 25);
+    health->setPos(health->x(), health->y() + vector_[5]);
     scene->addItem(health);
     // spawn enemies
-    QTimer *timer = new QTimer();
+    auto *timer = new QTimer();
     QObject::connect(timer, SIGNAL(timeout()), player, SLOT(Spawn()));
-    timer->start(2000);
+    timer->start(2 * vector_[0]);
     show();
 }
 
-void Game::displayMainMenu() {
-    setBackgroundBrush(QBrush(QImage("../src/Images/5th_background.jpg")));
-    QGraphicsTextItem *title_text = new QGraphicsTextItem();
-    QFont title_font("comic sans", 50);
+void Game::DisplayMainMenu() {
+    setBackgroundBrush(QBrush(QImage("../images/5th_background.jpg")));
+    auto *title_text = new QGraphicsTextItem();
+    QFont title_font("comic sans", vector_[4]);
     title_text->setFont(title_font);
     int tx_pos = this->width() / 2 - title_text->boundingRect().width() / 2;
-    int ty_pos = 150;
+    int ty_pos = display_[0];
     title_text->setPos(tx_pos, ty_pos);
     scene->addItem(title_text);
 
-    Button *play_button = new Button(QString("Play"));
+    auto *play_button = new Button(QString("Play"));
     int bx_pos = this->width() / 2 - play_button->boundingRect().width() / 2;
-    int by_pos = 275;
+    int by_pos = display_[1];
     play_button->setPos(bx_pos, by_pos);
     connect(play_button, SIGNAL(clicked()), this, SLOT(Start()));
     scene->addItem(play_button);
 
-    Button *quit_button = new Button(QString("Quit"));
+    auto *quit_button = new Button(QString("Quit"));
     int qx_pos = this->width() / 2 - quit_button->boundingRect().width() / 2;
-    int qy_pos = 350;
+    int qy_pos = display_[2];
     quit_button->setPos(qx_pos, qy_pos);
     connect(quit_button, SIGNAL(clicked()), this, SLOT(close()));
     scene->addItem(quit_button);
 }
 
-void Game::drawPanel(int x, int y, int width, int height, QColor color, double opacity) {
+void Game::DrawPanel(int x, int y, int width, int height, const QColor &color, double opacity) const {
     // draws a panel at the specified location with the specified properties
-    QGraphicsRectItem *panel = new QGraphicsRectItem(x, y, width, height);
+    auto *panel = new QGraphicsRectItem(x, y, width, height);
     QBrush brush;
     brush.setStyle(Qt::SolidPattern);
     brush.setColor(color);
@@ -81,31 +81,30 @@ void Game::drawPanel(int x, int y, int width, int height, QColor color, double o
     scene->addItem(panel);
 }
 
-void Game::gameOver() {
+void Game::GameOver() {
     DisplayGameOverWindow(QString::number(score->GetScore()));
 }
 
-void Game::DisplayGameOverWindow(QString message) {
+void Game::DisplayGameOverWindow(const QString &message) {
 
     player->setEnabled(false);
     score->setEnabled(false);
     health->setEnabled(false);
+    DrawPanel(0, 0, draw_[0], draw_[1], Qt::black, 0.65);
+    DrawPanel(draw_[2], draw_[3], draw_[4], draw_[4], Qt::lightGray, 0.75);
 
-    drawPanel(0, 0, 1024, 768, Qt::black, 0.65);
-    drawPanel(312, 184, 400, 400, Qt::lightGray, 0.75);
-
-    Button *play_again = new Button(QString("Play Again"));
-    play_again->setPos(410, 300);
+    auto *play_again = new Button(QString("Play Again"));
+    play_again->setPos(draw_[5], draw_[6]);
     scene->addItem(play_again);
     connect(play_again, SIGNAL(clicked()), this, SLOT(RestartGame()));
 
-    Button *quit = new Button(QString("Quit"));
-    quit->setPos(410, 375);
+    auto *quit = new Button(QString("Quit"));
+    quit->setPos(draw_[5], draw_[7]);
     scene->addItem(quit);
     connect(quit, SIGNAL(clicked()), this, SLOT(close()));
 
-    QGraphicsTextItem *over_text = new QGraphicsTextItem("Your score is " + message);
-    over_text->setPos(460, 225);
+    auto *over_text = new QGraphicsTextItem("Your score is " + message);
+    over_text->setPos(draw_[8], draw_[draw_.size() - 1]);
     scene->addItem(over_text);
 }
 void Game::RestartGame() {

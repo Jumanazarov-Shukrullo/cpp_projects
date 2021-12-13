@@ -9,11 +9,11 @@ extern Game *game;// there is an external global object called game
 
 Bullet::Bullet(QGraphicsItem *parent) : QObject(), QGraphicsPixmapItem(parent) {
     // draw graphics
-    setPixmap(QPixmap("../src/Images/bullet.png"));
+    setPixmap(QPixmap("../images/bullet.png"));
 
 
     // make/connect a timer to move() the bullet every so often
-    QTimer *timer = new QTimer(this);
+    auto *timer = new QTimer(this);
     connect(timer, SIGNAL(timeout()), this, SLOT(Move()));
 
     // start the timer
@@ -25,17 +25,17 @@ void Bullet::Move() {
     QList<QGraphicsItem *> colliding_items = collidingItems();
 
     // if one of the colliding items is an Enemy, destroy both the bullet and the enemy
-    for (int i = 0, n = colliding_items.size(); i < n; ++i) {
-        if (typeid(*(colliding_items[i])) == typeid(Enemy)) {
+    for (auto & colliding_item : colliding_items) {
+        if (typeid(*colliding_item) == typeid(Enemy)) {
             // increase the score
             game->score->IncreaseScore();
 
             // remove them from the scene (still on the heap)
-            scene()->removeItem(colliding_items[i]);
+            scene()->removeItem(colliding_item);
             scene()->removeItem(this);
 
             // delete them from the heap to save memory
-            delete colliding_items[i];
+            delete colliding_item;
             delete this;
 
             // return (all code below refers to a non-existing bullet)

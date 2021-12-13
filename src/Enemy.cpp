@@ -5,8 +5,8 @@
 #include <QList>
 #include <QMainWindow>
 #include <QTimer>
-#include <stdlib.h>
-#include <time.h>
+#include <cstdlib>
+#include <ctime>
 
 extern Game *game;
 
@@ -17,14 +17,14 @@ Enemy::Enemy() : QObject(), QGraphicsPixmapItem() {
     setPos(random_number, 0);
     if (game->score->GetScore() >= 5) {
         srand(time(nullptr));
-        int random_number = rand() % 700;
+        double random_number = rand() % 700;
         setPos(random_number, 0);
     }
     // drew the enemy
-    setPixmap(QPixmap("../src/Images/enemy.png"));
+    setPixmap(QPixmap("../images/enemy.png"));
 
     // connect
-    QTimer *timer = new QTimer(this);
+    auto *timer = new QTimer(this);
     connect(timer, SIGNAL(timeout()), this, SLOT(Move()));
     timer->start(50);
 }

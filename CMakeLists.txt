@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.10.2)
 project(PlaneGame)
 
 # Tell CMake to run moc when necessary:
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_AUTOMOC ON)
 # As moc files are generated in the binary dir, tell CMake
 # to always look for includes there:
@@ -27,4 +27,19 @@ target_link_libraries(PlaneGame
         Qt5::Gui
         Qt5::Widgets
         )
+
+#include googletest/include dir
+include_directories(googletest/include)
+
+#include the googlemock/include dir
+include_directories(googlemock/include)
+
+#Define your executable
+add_executable(src ${Bullet.cpp})
+
+#Link with GoogleTest
+target_link_libraries(src gtest gtest_main)
+
+#Link with GoogleMock
+target_link_libraries(src gmock gmock_main)
 

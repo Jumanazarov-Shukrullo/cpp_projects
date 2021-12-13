@@ -2,7 +2,7 @@
 #include <QGraphicsTextItem>
 #include <QBrush>
 
-Button::Button(QString name, QGraphicsItem *parent): QGraphicsRectItem(parent){
+Button::Button(const QString& name, QGraphicsItem *parent): QGraphicsRectItem(parent){
     // draw the rect
     setRect(0,0,200,50);
     QBrush brush;
@@ -12,8 +12,8 @@ Button::Button(QString name, QGraphicsItem *parent): QGraphicsRectItem(parent){
 
     // draw the text
     text_ = new QGraphicsTextItem(name,this);
-    int x_pos = rect().width()/2 - text_->boundingRect().width()/2;
-    int y_pos = rect().height()/2 - text_->boundingRect().height()/2;
+    double x_pos = rect().width()/2 - text_->boundingRect().width()/2;
+    double y_pos = rect().height()/2 - text_->boundingRect().height()/2;
     text_->setPos(x_pos,y_pos);
 
     // allow responding to hover events
@@ -39,3 +39,4 @@ void Button::hoverLeaveEvent(QGraphicsSceneHoverEvent *event){
     brush.setColor(Qt::gray);
     setBrush(brush);
 }
+
