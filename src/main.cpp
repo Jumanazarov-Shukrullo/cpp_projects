@@ -1,6 +1,8 @@
 #include "../include/Game.h"
 #include <QApplication>
 #include <QTimer>
+#include "../include/test.h"
+
 
 Game *game;
 
@@ -9,5 +11,7 @@ int main(int argc, char *argv[]) {
     game = new Game();
     game->show();
     game->DisplayMainMenu();
-    return QApplication::exec();
+    QApplication::exec();
+    testing::InitGoogleTest();
+    return RUN_ALL_TESTS();
 }
