@@ -29,10 +29,10 @@ If you don't have Qt installed then do this job, otherwise you can just go to th
 
 ### Then open the terminal, copy and paste following commands:
   ```
-  cd cpp_projects/PlaneGame/cmake-build-debug
+  cd cpp_projects
   ```
   ```
-  cmake ..
+  cmake .
   ```
   ```
   make
