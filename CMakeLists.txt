@@ -20,7 +20,7 @@ add_executable(PlaneGame src/main.cpp src/Player.cpp
         src/Game.cpp src/Enemy.cpp src/Score.cpp
         src/Health.cpp src/Bullet.cpp
         include/Bullet.h include/Enemy.h include/Game.h
-        include/Health.h include/Player.h include/Score.h include/Button.h src/Button.cpp  include/test.h)
+        include/Health.h include/Player.h include/Score.h include/Button.h src/Button.cpp Test/test.h)
 
 target_link_libraries(PlaneGame
         Qt5::Core

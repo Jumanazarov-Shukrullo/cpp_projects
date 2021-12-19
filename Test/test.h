@@ -1,7 +1,7 @@
 #ifndef PLANEGAME_TEST_H
 #define PLANEGAME_TEST_H
 
-#include "Game.h"
+#include "../include/Game.h"
 #include "gtest/gtest.h"
 
 extern Game *game;
@@ -36,7 +36,7 @@ TEST(TestPosition, CheckForPosition) {
 }
 
 TEST(TestDraw, CheckForDraw) {
-        EXPECT_EQ(1024, DrawProperly(game->draw_[0]));
+    EXPECT_EQ(1024, DrawProperly(game->draw_[0]));
 }
 
 TEST(TestSecondDraw, CheckForSecondDraw) {
