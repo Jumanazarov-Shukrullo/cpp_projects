@@ -41,9 +41,8 @@ If you don't have Qt installed then do this job, otherwise you can just go to th
   ```
   ./PlaneGame
   ```
-  
-  
 
-
-
-
+Some tests are created:\
+  <br>
+  ![picture](images/TestScreenShot.png)
+  <br>
