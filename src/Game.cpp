@@ -85,7 +85,7 @@ void Game::GameOver() {
     DisplayGameOverWindow(QString::number(score->GetScore()));
 }
 
-void Game::DisplayGameOverWindow(const QString &message) {
+int Game::DisplayGameOverWindow(const QString &message) {
 
     player->setEnabled(false);
     score->setEnabled(false);

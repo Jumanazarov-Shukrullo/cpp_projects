@@ -3,7 +3,6 @@
 #include <QTimer>
 #include "../include/test.h"
 
-
 Game *game;
 
 int main(int argc, char *argv[]) {
