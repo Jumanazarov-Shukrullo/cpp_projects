@@ -10,7 +10,12 @@ public:
     Enemy();
 
 private:
-    std::vector<int> pos_ = {0, 5, 6, 700, 780, 800};
+    int max_height_ = 800;
+    int max_width_ = 780;
+    int default_pos_ = 0;
+    int increase_pos_ = 5;
+    int random_pos_ = 700;
+    int score_to_change_pos_ = 5;
 public slots:
     void Move();
 };
