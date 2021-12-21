@@ -10,5 +10,7 @@ public:
 
 private:
     int score_;
+    int point_size_ = 16;
+    int default_score_ = 0;
 };
 #endif//PLANEGAME_SCORE_H

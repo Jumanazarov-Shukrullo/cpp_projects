@@ -6,16 +6,16 @@
 extern Game *game;
 
 Health::Health(QGraphicsItem *parent) : QGraphicsTextItem(parent) {
-    health_ = 10;
+    health_ = starting_health_value_;
     setPlainText("Health: " + QString::number(health_));
     setDefaultTextColor(Qt::red);
-    setFont(QFont("times", 16));
+    setFont(QFont("times", point_size_));
 }
 
 void Health::DecreaseHealth() {
     health_--;
     setPlainText("Health: " + QString::number(health_));
-    if (health_ == 0) {
+    if (health_ == min_health_) {
         game->GameOver();
     }
 }

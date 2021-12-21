@@ -3,10 +3,10 @@
 #include <QGraphicsTextItem>
 
 Score::Score(QGraphicsItem *parent) : QGraphicsTextItem(parent) {
-    score_ = 0;
+    score_ = default_score_;
     setPlainText("Score: " + QString::number(score_));
     setDefaultTextColor(Qt::yellow);
-    setFont(QFont("times", 16));
+    setFont(QFont("times", point_size_));
 }
 
 void Score::IncreaseScore() {
