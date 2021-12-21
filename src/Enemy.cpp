@@ -15,11 +15,6 @@ Enemy::Enemy() : QObject(), QGraphicsPixmapItem() {
     srand(time(nullptr));
     int random_number = rand() % max_height_;
     setPos(random_number, default_pos_);
-    if (game->score->GetScore() >= score_to_change_pos_) {
-        srand(time(nullptr));
-        double random_number = rand() % random_pos_;
-        setPos(random_number, default_pos_);
-    }
     // drew the enemy
     setPixmap(QPixmap("../images/enemy.png"));
 
