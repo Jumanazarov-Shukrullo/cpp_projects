@@ -1,7 +1,7 @@
+#include "../Test/test.h"
 #include "../include/Game.h"
 #include <QApplication>
 #include <QTimer>
-#include "../Test/test.h"
 
 Game *game;
 

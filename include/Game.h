@@ -18,7 +18,7 @@ public:
     Health *health{};
     void DisplayMainMenu();
     void GameOver();
-    int DisplayGameOverWindow(const QString &message);
+    void DisplayGameOverWindow(const QString &message);
     std::vector<int> vector_ = {1000, 800, 640, 550, 50, 25};
     std::vector<int> draw_ = {1024, 768, 312, 184, 400, 410, 300, 375, 460, 225};
     std::vector<int> display_ = {150, 275, 350};

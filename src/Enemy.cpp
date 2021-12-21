@@ -13,12 +13,12 @@ extern Game *game;
 Enemy::Enemy() : QObject(), QGraphicsPixmapItem() {
     //set random position
     srand(time(nullptr));
-    int random_number = rand() % 800;
-    setPos(random_number, 0);
-    if (game->score->GetScore() >= 5) {
+    int random_number = rand() % pos_[pos_.size() - 1];
+    setPos(random_number, pos_[0]);
+    if (game->score->GetScore() >= pos_[1]) {
         srand(time(nullptr));
-        double random_number = rand() % 700;
-        setPos(random_number, 0);
+        double random_number = rand() % pos_[pos_.size() - 3];
+        setPos(random_number, pos_[0]);
     }
     // drew the enemy
     setPixmap(QPixmap("../images/enemy.png"));
@@ -30,18 +30,18 @@ Enemy::Enemy() : QObject(), QGraphicsPixmapItem() {
 }
 
 void Enemy::Move() {
-    if (game->health->GetHealth() != 0) {
-        setPos(x(), y() + 5);
-        if (game->score->GetScore() >= 5) {
-            setPos(x(), y() + 6);
+    if (game->health->GetHealth() != pos_[0]) {
+        setPos(x(), y() + pos_[1]);
+        if (game->score->GetScore() >= pos_[1]) {
+            setPos(x(), y() + pos_[2]);
         }
-        if (pos().y() > 780) {
+        if (pos().y() > pos_[pos_.size() - 2]) {
             game->health->DecreaseHealth();
             scene()->removeItem(this);
             delete this;
             qDebug() << "item deleted";
         }
     } else {
-        setPos(0,0);
+        setPos(pos_[0], pos_[0]);
     }
 }

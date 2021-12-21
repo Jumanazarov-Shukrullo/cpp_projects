@@ -25,7 +25,7 @@ void Bullet::Move() {
     QList<QGraphicsItem *> colliding_items = collidingItems();
 
     // if one of the colliding items is an Enemy, destroy both the bullet and the enemy
-    for (auto & colliding_item : colliding_items) {
+    for (auto &colliding_item: colliding_items) {
         if (typeid(*colliding_item) == typeid(Enemy)) {
             // increase the score
             game->score->IncreaseScore();
